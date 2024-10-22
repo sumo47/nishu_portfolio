@@ -234,6 +234,8 @@
                             <div key={msg._id} className="card">
                                 <h3>{msg.name}</h3>
                                 <p><strong>Email:</strong> {msg.email}</p>
+                                <p><strong>phone:</strong> {msg.phone}</p>
+                                <p><strong>subject:</strong> {msg.subject}</p>
                                 <p><strong>Message:</strong> {msg.message}</p>
                                 <button onClick={() => handleDelete(msg._id)}>Delete</button>
                             </div>
